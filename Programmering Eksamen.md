@@ -16,3 +16,5 @@
 ![image](https://user-images.githubusercontent.com/56455491/148211581-3160dacb-db08-47f7-9936-dee21eed6fca.png)
 
 ### 4. Derfra skal jeg opbygge en Database som kan indeholde dataen fra json filerne. Herbruger jeg MongoDB som er en NoSQL og mongoose som er en ODM.
+### Programmet connecter succesfuld til Databasen under "npm start" i terminalen. Dermed er der også mulighed for at indskrive information og sende ind i databasen.
+### Den er dog ikke lavet til at man bare kan vælge en json objekt og den inputter info selv derefter. Den er lavet til at man selv indskriver alt information af et instrument og trykker det ind.
