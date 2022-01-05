@@ -37,6 +37,7 @@
 <form method="post" action="/admininstru" onsubmit="this.submit(); this.reset(); return false;" id="container">
   <h1>database</h1>
 
+      <h3>instrumenter</h3>
         <label for="navn">Navn:</label><br>
         <input type="text" id="navndb" name="navnForm" value=""><br><br>
 
@@ -53,9 +54,7 @@
         <input type="submit" value="tilføj data">
   
   
-       <br><br>
-   <button id="deleteButton" onclick="deleteItem()"> Slet</button>
-  
+       <br><br>  
    <input type='button' onclick='tableFromJson()' 
         value='Vis produkter fra lager' />
   
@@ -67,6 +66,5 @@
     <script src="./javascripts/getSession.js"></script>
     <script src="./javascripts/navbarbtn.js"></script>
     <script src="./javascripts/cookieSession.js"></script>
-    <script src="./javascripts/jsonjava.js"></script>
 </body>
 </html>
