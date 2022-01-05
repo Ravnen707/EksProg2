@@ -1,0 +1,14 @@
+Question 1 simplified: Vintageandrare.com har en SQL-database med alt information af brugernavne og passwords. Men den eneste måde for at se disse 2 er ved at være logget ind på databasen. 
+Så hvilke former for hackerangren er de sårbare overfor og hvordan kan den sårbarhed begrænses?
+
+
+Answer: 
+
+En form for hacker angreb der kan bruges kan være SQL-Injection. Som er en meget almindelig form for angrab. SQL-Injection bruger "ond" code for at manipulere "backend Database",
+som får adgang til at vise information, som ikke må vises. 
+
+
+Det er svært at se om en burger er ondsindet eller ej. Så en måde man kan forbygge angrebbet på ville være fjerne mulighedden for at skrive specialtegn i brugerinput. 
+
+En anden måde er også at begrænse adgangen til databasen. Dette kan gøres ved at nedsætte personer der kan tilgå den. f.eks. kun "hovedpersoner" i firmaet,
+ så de skal tilgåes før at en ansat eller bruger kan tilgå deres information.
