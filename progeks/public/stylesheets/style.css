@@ -1,6 +1,7 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body{
+  background-image: radial-gradient(100% 30% ellipse at center top, #ffffff 0%, rgba(177, 177, 177, 0) 100%), radial-gradient(100% 50% ellipse at center bottom, #ffffff 0%, #2a3c47 100%);
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {

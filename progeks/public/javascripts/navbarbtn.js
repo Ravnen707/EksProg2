@@ -7,3 +7,7 @@ document.getElementById("loginSite").onclick = function() {
 document.getElementById("apiSite").onclick = function() {
     window.location.href =" http://localhost:3000/api.html"
 }
+
+document.getElementById("registration").onclick = function() {
+    window.location.href =" http://localhost:3000/login.html"
+}

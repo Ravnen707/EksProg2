@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/loginForm.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+          <div class="navbartxt">
+            <button class="btn" id="forsideSite">Forside
+            </button>
+            <div class="dropdown-content">
+            </div>
+          </div> 
+          <div class="navbartxt">
+              <button class="btn" id="apiSite"> API
+              </button>
+              <div class="dropdown-content">
+              </div>
+            </div> 
+            <div class="navbartxt">
+                <button class="btn" id="loginSite"> Login
+                </button>
+                <div class="dropdown-content">
+                </div>
+              </div> 
+       </div>
+    </nav>
+    
+    <form action="/Login" method="post">
+    
+        <div class="container">
+            <label for="uname"><b>Name</b></label>
+            <input type="text" placeholder="Enter name" name="uname" required>
+  
+            <label for="psw"><b>Last Name</b></label>
+            <input type="password" placeholder="Enter Last Name" name="psw" required>
+            
+            <br> </br>
+            <br> </br>
+  
+            <label for="psw"><b>Mail</b></label>
+            <input type="password" placeholder="Enter Mail-Adress" name="psw" required>
+  
+            <label for="psw"><b>Confirm Mail</b></label>
+            <input type="password" placeholder="Confirm Mail-Adress" name="psw" required>
+  
+            <br> </br>
+            <br> </br>
+  
+            <label for="psw"><b>ID</b></label>
+            <input type="password" placeholder="Enter a Validated ID" name="psw" required>
+  
+            <br> </br>
+            <br> </br>
+  
+            <label for="psw"><b>Age</b></label>
+            <input type="password" placeholder="Enter Age dd/mm/yyyy" name="psw" required>
+  
+            <br> </br>
+            <br> </br>
+  
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+  
+            <label for="psw"><b>Confirm Password</b></label>
+            <input type="password" placeholder="Confirm Password" name="psw" required>
+        </div>
+        <button type="submit" style="margin-left: 50%;" id="registration">  Registration</button>
+      </form>
+
+      <script src="./javascripts/navbarbtn.js"></script>
+</body>
+</html>

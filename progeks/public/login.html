@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/loginForm.css">
+
     <title>Document</title>
 </head>
 <body>
+    <nav>
+        <div class="navbar">
+          <div class="navbartxt">
+            <button class="btn" id="forsideSite">Forside
+            </button>
+            <div class="dropdown-content">
+            </div>
+          </div> 
+          <div class="navbartxt">
+              <button class="btn" id="apiSite"> API
+              </button>
+              <div class="dropdown-content">
+              </div>
+            </div> 
+            <div class="navbartxt">
+                <button class="btn" id="loginSite"> Login
+                </button>
+                <div class="dropdown-content">
+                </div>
+              </div> 
+       </div>
+    </nav>
+
+    <form action="/Login" method="post">
+    
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+              
+          <button type="submit" onclick=""><a href="beskeder.html">Login</a> </button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+          <input type="checkbox" checked="checked" name="remember"> Giv Samtykke
+        </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+            <a type="button" class="registbtn" href="registrer.html">Ikke en bruger? Registre her.</a>
+
+          <span class="psw">Forgot <a href="registre.html">password?</a></span>
+        </div>
+      </form>
+
+
+
+    <script src="./javascripts/navbarbtn.js"></script>
     
 </body>
 </html>
