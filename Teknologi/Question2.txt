@@ -1,0 +1,24 @@
+Question 2 simplified: Når man opretter en konto på vintageandrare.com skal man opgive disse oplysninger: Email, navn, telefon og interesser i forhold til emnet. 
+Oplysningerne bliver gemt de til målrettet markedføring. 
+Så hvad skal vintage and Rare være opmærksomme på når de ønsker at gemme disse oplysninger fra deres medlemmer? 
+- Nævn en lov og nævn mindst 3 konkrete ting de skal gøre for ikke at overtræde denne lov.
+
+Answer:
+
+De skal følge retninglinjerne inde for GDPR-Loven (General Data Protection Requlation)
+
+For at være i stand til at bruge data fra kunderne, som ejere af siden kan bruge til markedsføring og "storing" af data. Skal de havde samtykke fra brugere af hjemmesiden.
+Dette skal ske med et visualt "check box" der skal være tydeligt vist frem ved siden, hvor man evt. svare eller indskriver informationen til disse konkrete emner. 
+Samstykke skal indholde information om at de får lov til at bruge den indksrevnde data til markedhsføring og alle andre former de har tænkt sig at bruge det på også.
+Hvis der er en tredje part side der også bruger information, fx. Facebook. SKAL dette også stå i samstykket brugeren giver lov til. 
+(Kort sagt, oplyse kunder og ansatte om hvordan deres information bliver brugt)
+
+For at overholde loven skal alle brugere også havde rettighedderne til at "blive glemt". Dette indebære at datan omkring brugere skal være i stand til at blive slettet,
+eller blive gjort "anonymiseret", hvilket vil sige at data'en ikke længere kan referes til en bestemt person.
+
+Virksomheden skal også dokumentere at det inføre passende tekniske og oranisatoriske foranstaninger. 
+
+
+
+Bonus:
+I tilfælde man ikke overhodler reglerne om GDRP-loven er det sådan i EU at man kan få bøder om til 20 millioner EURO eller 4% af den globale omsætning. Ende i fængsel er også en mulighed.
