@@ -10,6 +10,7 @@ require('dotenv/config');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var admininstru = require('./routes/admininstru');
+const showData = require('./routes/ItemsDB');
 
 var app = express();
 
@@ -26,6 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/admininstru', admininstru);
+app.use('/itemsDB', showData);
 
 async function start(){
   try{
