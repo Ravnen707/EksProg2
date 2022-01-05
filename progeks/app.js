@@ -9,6 +9,7 @@ require('dotenv/config');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var admininstru = require('./routes/admininstru');
 
 var app = express();
 
@@ -24,6 +25,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/admininstru', admininstru);
+
+async function start(){
+  try{
+    mongoose.connect(process.env.CONNECT_TO_DB);
+    console.log('Connected to db');
+  } catch(error){
+    console.log(error);
+  }
+}
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -42,3 +53,5 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+start();
