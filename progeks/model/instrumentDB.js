@@ -1,4 +1,4 @@
-const mongoose = require('mingiise');
+const mongoose = require('mongoose');
 
 const mongoI = new mongoose.Schema({
     navn: String,

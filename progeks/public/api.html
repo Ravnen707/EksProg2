@@ -34,25 +34,23 @@
 
 <p id="usernameUser"></p>
 
-<form method="post" action="/update" onsubmit="this.submit(); this.reset(); return false;" id="container">
-  <h1>Online lager</h1>
-        <label for="varerID">ID:</label><br>
-        <select id="ID" name="ID" ></select><br><br>
+<form method="post" action="/admininstru" onsubmit="this.submit(); this.reset(); return false;" id="container">
+  <h1>database</h1>
 
         <label for="navn">Navn:</label><br>
-        <input type="navn" id="navndb" name="navnForm"><br><br>
+        <input type="text" id="navndb" name="navnForm" value=""><br><br>
 
         <label for="pris">Pris</label><br>
-        <input type="pris" id="pirsdb" name="prisForm"><br><br>
+        <input type="text" id="pirsdb" name="prisForm" value=""><br><br>
 
         <label for="Forhandler">Forhandler</label><br>
-        <input type="forhandler" id="fordb" name="forhandlerForm"><br><br>
+        <input type="text" id="fordb" name="forhandlerForm" value=""><br><br>
 
         <label for="lokation">Lokation</label><br>
-        <input type="lokation" id="lokdb" name="lokationForm"><br><br>
+        <input type="text" id="lokdb" name="lokationForm" value=""><br><br>
   
         
-        <input type="submit" value="Opdater">
+        <input type="submit" value="tilføj data">
   
   
        <br><br>
@@ -69,5 +67,6 @@
     <script src="./javascripts/getSession.js"></script>
     <script src="./javascripts/navbarbtn.js"></script>
     <script src="./javascripts/cookieSession.js"></script>
+    <script src="./javascripts/jsonjava.js"></script>
 </body>
 </html>

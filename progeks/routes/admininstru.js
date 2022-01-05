@@ -1,6 +1,6 @@
 var express = require('express');
+var router = express.Router();
 const instrumentDB = require('../model/instrumentDB');
-var router = expres.router();
 
 router.post('/', async(req, res) => {
     let note ={
