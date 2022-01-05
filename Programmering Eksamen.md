@@ -2,6 +2,8 @@
 
 ## Dette er min eksamen programmering.
 
+### Jeg skal besvare på 2 Teknologi spørgsmål, som ligger inde i "Teknologi" folderen som "Question1" og "Question2" som er txt filer. 
+
 ### 1. I denne dette program får jeg til opgave at skal lave en ny side for vintageandrare.com. Den skal havde 3 sider, forside, login og en api side.
 ### 2. Den skal være i stand til at gemme cookies. Hvilket jeg gør igennem SessionStorage.
 ![image](https://user-images.githubusercontent.com/56455491/148211656-eb22a4d8-61bb-41c6-82e2-73a33f8e4d39.png)
