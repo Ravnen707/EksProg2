@@ -34,6 +34,37 @@
 
 <p id="usernameUser"></p>
 
+<form method="post" action="/update" onsubmit="this.submit(); this.reset(); return false;" id="container">
+  <h1>Online lager</h1>
+        <label for="varerID">ID:</label><br>
+        <select id="ID" name="ID" ></select><br><br>
+
+        <label for="navn">Navn:</label><br>
+        <input type="navn" id="navndb" name="navnForm"><br><br>
+
+        <label for="pris">Pris</label><br>
+        <input type="pris" id="pirsdb" name="prisForm"><br><br>
+
+        <label for="Forhandler">Forhandler</label><br>
+        <input type="forhandler" id="fordb" name="forhandlerForm"><br><br>
+
+        <label for="lokation">Lokation</label><br>
+        <input type="lokation" id="lokdb" name="lokationForm"><br><br>
+  
+        
+        <input type="submit" value="Opdater">
+  
+  
+       <br><br>
+   <button id="deleteButton" onclick="deleteItem()"> Slet</button>
+  
+   <input type='button' onclick='tableFromJson()' 
+        value='Vis produkter fra lager' />
+  
+        <p id='showData'></p>
+  
+      </form>
+
 
     <script src="./javascripts/getSession.js"></script>
     <script src="./javascripts/navbarbtn.js"></script>
